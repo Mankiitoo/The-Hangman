@@ -8,7 +8,7 @@ Funcionalidades:
     Crear juego con una palabra de una lista aleatoria para que el usuario adivine.
     Agregador de palabras a la lista aleatoria.
 
-Extras:
+Bonus:
 
     Recibe mayúsculas y minúsculas.
     Valida que el usuario solo ingrese letras.
