@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <main>
+
+
+        <div id="inicio" class="caja">
+            <div>
+                <button class="boton1" id="boton-iniciar">Iniciar juego</button>
+            </div>
+            <div>
+                <button class="boton2" id="agregar-palabra">Agregar nueva palabra</button>
+            </div>
+        </div>
+
+
+        <div id="a-palabra" class="caja2 invisible">
+            <div>
+                <textarea name="palabra" id="palabra" cols="30" rows="9" placeholder="Ingrese una palabra"></textarea>
+            </div>
+            <div>
+                <button class="boton boton3" id="guardar">Guardar y empezar</button>
+                <button class="boton boton4" id="cancelar">Cancelar</button>
+            </div>
+        </div>
+
+
+        <div id="juego" class="caja3 invisible">
+            <div>
+                <canvas id="ahorcado" height="400px" width="800px"></canvas>
+            </div>
+            <div>
+                <button class="boton boton3" id="nuevo-juego">Nuevo juego</button>
+                <button class="boton boton4" id="desistir">Desistir</button>
+            </div>
+        </div>
+    </main>
+    <script src="js/empezarJuego.js"></script>
+    <script src="js/dibujarLetra.js"></script>
+    <script src="js/validarLetra.js"></script>
+    <script src="js/ganadorPerdedor.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/muneco.js"></script>
+
+
+</body>
+
+</html>
